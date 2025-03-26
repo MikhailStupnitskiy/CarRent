@@ -1,0 +1,32 @@
+/* Пример содержимого styles.qss */
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton:pressed {
+    background-color: #3e8e41;
+}
+
+QDialog {
+    background-color: #F0F0F0;
+    font-family: Arial, sans-serif;
+}
+
+QLabel {
+    font-size: 18px;
+    color: #333333;
+}
+
+QVBoxLayout {
+    margin: 20px;
+}

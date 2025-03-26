@@ -1,0 +1,48 @@
+/* Общие стили для приложения */
+QWidget {
+    background-color: #F5F5F5; /* Светло-серый фон */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #333333; /* Темно-серый текст */
+}
+
+/* Стили для кнопок */
+QPushButton {
+    background-color: #FF69B4; /* Розовый цвет фона */
+    color: #FFFFFF; /* Белый цвет текста */
+    border: 1px solid #FF69B4;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    min-width: 120px; /* Увеличенный минимальный размер */
+    min-height: 40px; /* Увеличенный минимальный размер */
+    word-wrap: break-word; /* Автоматический перенос текста */
+}
+
+QPushButton:hover {
+    background-color: #FF1493; /* Более темный розовый при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #C71585; /* Ещё более темный розовый при нажатии */
+}
+
+/* Стили для главного окна */
+QDialog {
+    background-color: #FFFFFF; /* Белый фон */
+    border: 1px solid #FF69B4;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Стили для меток */
+QLabel {
+    font-size: 16px;
+    color: #FF69B4; /* Розовый цвет текста */
+    padding: 4px;
+}
+
+/* Стили для текстовых полей */
+QLineEdit, QComboBox {
+    background-color: #E0FFFF; /* Бирюзовый цвет
